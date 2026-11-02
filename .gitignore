@@ -1,0 +1,15 @@
+# Dados dos clientes (fichas, mídias, relatórios) — ficam só no computador
+clientes/*
+!clientes/_modelo/
+
+# Dados do painel (conversas, relatórios, configurações com tokens/WhatsApp)
+painel/data/
+painel/node_modules/
+painel/dist/
+
+# Manual pessoal (contém login e IDs do navegador)
+CLAUDE.md
+img/
+
+.env
+*.log
