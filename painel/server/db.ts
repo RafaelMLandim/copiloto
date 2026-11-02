@@ -26,10 +26,10 @@ export const CONFIG_PADRAO: Configuracoes = {
   },
   meta: { accessToken: '', versaoApi: 'v23.0' },
   relatorios: {
-    semanalAtivo: true,
+    semanalAtivo: false,
     semanalDia: 6,
     semanalHora: '09:00',
-    mensalAtivo: true,
+    mensalAtivo: false,
     mensalHora: '09:00',
     mensalQuando: 'primeiro-dia',
     enviarAutomatico: true,
